@@ -1,0 +1,114 @@
+/* ===== BASE ===== */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* ===== HEADER ===== */
+header {
+    background: linear-gradient(to right, #4CAF50, #81C784);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header h1 {
+    font-size: 4em;
+    margin: 10px 0;
+}
+
+header p {
+    font-size: 1.3em;
+}
+
+/* ===== NAV ===== */
+nav {
+    background-color: #315514;
+    padding: 10px;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* ===== CONTAINER ===== */
+.container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background: linear-gradient(to right, #4CAF50, #81C784);
+    color: white;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* ===== FORM ===== */
+input, select, textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 10px auto;
+    display: block;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 12px 30px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 10px auto;
+}
+
+/* ===== KOMENT (DIFFERENT BACKGROUND) ===== */
+.container#koment {
+    background-color: #ffffff;
+    background-image: none;
+    color: #0b0505;
+    border-left: 6px solid #d3dfd3;
+}
+
+/* ===== IMAGES ===== */
+.images {
+    text-align: center;
+}
+
+.images img {
+    width: 300px;
+    margin: 10px;
+    border-radius: 6px;
+}
+
+/* ===== KONTAKT ===== */
+#kontakti {
+    background-color: #e8e8e8;
+    color: #333;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    background-color: #315514;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
