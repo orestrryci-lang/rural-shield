@@ -8,7 +8,7 @@ body {
 
 /* ===== HEADER ===== */
 header {
-    background: linear-gradient(to right, #4CAF50, #81C784);
+    background: linear-gradient(to right, #2E8B57, #4CAF50);
     color: white;
     text-align: center;
     padding: 50px 20px;
@@ -25,7 +25,7 @@ header p {
 
 /* ===== NAV ===== */
 nav {
-    background-color: #315514;
+    background-color: #2E8B57;
     padding: 10px;
 }
 
@@ -42,6 +42,11 @@ nav {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-menu a:hover {
+    color: #FFA500;
 }
 
 /* ===== CONTAINER ===== */
@@ -51,7 +56,7 @@ nav {
     margin: 20px auto;
     padding: 20px;
     border-radius: 8px;
-    background: linear-gradient(to right, #4CAF50, #81C784);
+    background: linear-gradient(to right, #2E8B57, #4CAF50);
     color: white;
     text-align: center;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -66,42 +71,69 @@ input, select, textarea {
     display: block;
     border-radius: 5px;
     border: 1px solid #ccc;
+    color: #333;
 }
 
 button {
     padding: 12px 30px;
-    background-color: #4CAF50;
+    background-color: #2E8B57;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     display: block;
     margin: 10px auto;
+    transition: background-color 0.3s ease;
 }
 
-/* ===== KOMENT (DIFFERENT BACKGROUND) ===== */
+button:hover {
+    background-color: #FFA500;
+}
 .container#koment {
     background-color: #ffffff;
     background-image: none;
-    color: #0b0505;
-    border-left: 6px solid #d3dfd3;
+    color: #333333;
+    border-left: 6px solid #2E8B57;
+}
+
+/* ===== SECTIONS ===== */
+.section {
+    padding: 40px 20px;
+    margin: 30px 0;
+    text-align: center;
+}
+
+.form-section {
+    padding: 30px 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 600px;
 }
 
 /* ===== IMAGES ===== */
-.images {
+.images-section {
     text-align: center;
+    padding: 30px 20px;
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 .images img {
     width: 300px;
+    height: 200px;
     margin: 10px;
     border-radius: 6px;
+    object-fit: cover;
 }
 
 /* ===== KONTAKT ===== */
 #kontakti {
-    background-color: #e8e8e8;
-    color: #333;
+    background-color: #F5F5F5;
+    color: #333333;
 }
 
 /* ===== FOOTER ===== */
