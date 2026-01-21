@@ -4,86 +4,102 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pastrojmë Shqipërinë</title>
-<link rel="stylesheet" href="web.css">
-a
+    <link rel="stylesheet" href="web.css">
 </head>
+
 <body>
-    <header>
+
+<header>
     <h1>Rural Shield</h1>
     <p>Shërbimi i pastrimit të mbeturinave sipas kërkesës</p>
-  </header>
+</header>
+
 <nav>
-  <ul class="nav-menu">
-    <li><a href="#raporto">Raporto</a></li>
-    <li><a href="#rrethnesh">Rreth Nesh</a></li>
-    <li><a href="#kontakti">Kontakto</a></li>
-  </ul>
+    <ul class="nav-menu">
+        <li><a href="#raporto">Raporto</a></li>
+        <li><a href="#rrethnesh">Rreth Nesh</a></li>
+        <li><a href="#kontakti">Kontakto</a></li>
+    </ul>
 </nav>
 
 <section id="raporto" class="section">
-  <div class="container">
-    <h2 id="raporto-heading">Raporto Zonën për Pastrim</h2>
-  </div>
-  <form class="form-section">
-    <div class="form-group">
-      <label for="emri">Emri juaj</label>
-      <input type="text" id="emri" placeholder="Shkruani emrin tuaj" required>
+    <div class="container">
+        <h2>Raporto Zonën për Pastrim</h2>
     </div>
-    <div class="form-group">
-      <label for="lokacioni">Lokacioni ose Adresa</label>
-      <input type="text" id="lokacioni" placeholder="Shkruani lokacionin" required>
-    </div>
-    <div class="form-group">
-      <label for="lloji_i_pastrimit">Lloji i plehrave</label>
-      <select name="lloji_i_pastrimit" id="lloji_i_pastrimit" required>
-        <option value="">-- Zgjidh llojin e plehrave --</option>
-        <option value="Metal">Metal</option>
-        <option value="Plastik">Plastik</option>
-        <option value="Papir">Papir</option>
-        <option value="tePerzir">Të Përzirë</option>
-      </select>
-    </div>
-    <div class="form-group">
-      <label for="pershkrimi">Përshkrim shtesë</label>
-      <textarea id="pershkrimi" rows="4" placeholder="Përshkruani madhësinë e zonës ose informacion shtesë"></textarea>
-    </div>
-    <button type="submit" id="rrethnesh1">Dërgo Raportin</button>
-  </form>
+
+    <form class="form-section">
+        <div class="form-group">
+            <label for="emri">Emri juaj</label>
+            <input type="text" id="emri" placeholder="Shkruani emrin tuaj" required>
+        </div>
+
+        <div class="form-group">
+            <label for="lokacioni">Lokacioni ose Adresa</label>
+            <input type="text" id="lokacioni" placeholder="Shkruani lokacionin" required>
+        </div>
+
+        <div class="form-group">
+            <label for="lloji">Lloji i plehrave</label>
+            <select id="lloji" required>
+                <option value="">-- Zgjidh --</option>
+                <option>Metal</option>
+                <option>Plastik</option>
+                <option>Letër</option>
+                <option>Të Përziera</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="pershkrimi">Përshkrim shtesë</label>
+            <textarea id="pershkrimi" rows="4"
+                placeholder="Informacion shtesë për zonën"></textarea>
+        </div>
+
+        <button type="submit">Dërgo Raportin</button>
+    </form>
 </section>
 
-<section id="rrethnesh" class="section">
-  <div class="container">
-    <h2>Rreth Nesh</h2>
-  </div>
-  <div class="container" id="koment">
-    <p>Ne jemi një organizatë private e dedikuar për mbrojtjen e mjedisit dhe përmirësimin e pastërtisë së komuniteteve tona. Misioni ynë është të ofrojmë shërbime profesionale dhe të besueshme për pastrimin e mbeturinave, duke ndihmuar qytetet dhe fshatrat të jenë më të pastër dhe më të shëndetshëm për të gjithë.</p>
-    <p>Përmes teknologjive moderne, qasjeve inovative dhe një ekipi të përkushtuar, ne synojmë të zvogëlojmë ndotjen dhe të promovojmë riciklimin dhe menaxhimin e përgjegjshëm të mbetjeve. Besojmë se një mjedis i pastër është themeli i një shoqërie të shëndetshme dhe të qëndrueshme, dhe jemi këtu për ta bërë këtë të mundur çdo ditë.</p>
-    <p>Bashkohuni me ne për të krijuar një mjedis më të pastër, hap pas hapi.</p>
-  </div>
-  <div class="images-section">
-    <img src="gettyimages-1195023740-2048x2048.jpg" alt="Akt pastrimi" width="300" height="200">
-    <img src="stock-photo-group-of-volunteer-cleaning-picking-up-plastic-litter-in-the-park-diverse-group-of-people-collect-2643490733.jpg" alt="Akt pastrimi" width="300" height="200">
-    <img src="images.jfif" alt="Akt pastrimi" width="300" height="200">
-    <img src="istockphoto-1143445679-2048x2048.jpg" alt="Akt pastrimi" width="300" height="200">
-    <img src="stock-photo-volunteers-in-green-shirts-clean-park-picking-up-trash-with-bags-and-tools-protecting-nature-2577439041.jpg" alt="Akt pastrimi" width="300" height="200">
-  </div>
+<section id="rrethnesh" class="section alt">
+    <div class="container text-box">
+        <h2>Rreth Nesh</h2>
+        <p>
+            Ne jemi një organizatë private e përkushtuar për mbrojtjen e mjedisit dhe
+            përmirësimin e pastërtisë së komuniteteve tona.
+        </p>
+        <p>
+            Përmes teknologjive moderne dhe një ekipi të dedikuar, synojmë të
+            zvogëlojmë ndotjen dhe të promovojmë riciklimin.
+        </p>
+        <p>
+            Bashkohuni me ne për një Shqipëri më të pastër.
+        </p>
+    </div>
+
+    <div class="images-section">
+        <img src="gettyimages-1195023740-2048x2048.jpg" alt="Pastrimi">
+        <img src="stock-photo-group-of-volunteer-cleaning-picking-up-plastic-litter-in-the-park-diverse-group-of-people-collect-2643490733.jpg" alt="Vullnetarë">
+        <img src="images.jfif" alt="Komuniteti">
+    </div>
 </section>
 
 <section id="kontakti" class="section">
-  <div class="container" id="kontakti"> 
-<div class="container" id="kontakti">
-    <h2>Kontakto</h2>
-    <p>Email: Email@gmail.com</p>
-    <p>Telefon: +355 69 123 4567</p>
-    <p>Rrjetet Sociale: Facebook / Instagram</p>
-  </div>
+    <div class="container kontakto-box">
+        <h2>Kontakto</h2>
+        <p>Email: email@gmail.com</p>
+        <p>Telefon: +355 69 123 4567</p>
+        <p>Facebook / Instagram</p>
+    </div>
 </section>
 
-  <footer>
+<footer>
     &copy; 2026 Rural Shield | Të gjitha të drejtat e rezervuara
-  </footer>
+</footer>
+
+</body>
+</html>
 
 </body>
 
 
 </html>
+
